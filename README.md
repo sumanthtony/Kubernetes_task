@@ -13,7 +13,7 @@ NOTE: AS IN MY AWS ACCOUNT HAS SOME PERMISSION ISSUES WHILE LAUNCHING AND PERFOR
 
 Note: 
 1. Here I have created **1 Master and 2 Worker node** with each EBS volume of 20 and for **High Availability** placed the nodes in **multiple Availability zones**
-2. In the backend **Infrastructure** is created and will take some time to reflect the changes in the **EC2 page**, and once done using this command (kubectl get no) we can confirm when the nodes state is in **READY** we can say cluster creation is completed and now can start working on it.
+2. In the backend **Infrastructure** is created and will take some time to reflect the changes in the **EC2 page**, and once done using this command **(kubectl get no)** we can confirm when the nodes state is in **READY** we can say cluster creation is completed and now can start working on it.
 
 **--->** Written a **Deployment.yml & service.yml** in same file and saved. 
 
